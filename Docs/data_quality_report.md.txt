@@ -1,0 +1,5 @@
+| Issue               | Decision                     | Reason                          |
+ | ---------------------------- | ------------------------------- |
+| Blank Postal Codes  | Allowed NULL                 | Dataset contains missing values |
+| Duplicate Customers | Removed during normalization | Prevent redundancy              |
+| Missing Ship Dates  | Kept as NULL                 | Cannot infer correct dates      |
